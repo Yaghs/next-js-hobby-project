@@ -9,10 +9,11 @@ export default function About(){
 
                 <div className="grid items-center gap-8 mb-12 md:grid-cols-2">
                     <div className="relative h-[300px] w-full">
-                        <img
+                        <Image
                             src="/about-page-hero.png"
                             alt="about page image"
                             width="350"
+                            height="300"
                         />
                     </div>
                     <div>
