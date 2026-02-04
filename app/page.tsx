@@ -1,4 +1,5 @@
 import {JSX} from "react"
+import PrintedImage from "@/public/3D-printed.png"
 import Image from "next/image"
 
 export default function Home():JSX.Element {
@@ -23,7 +24,7 @@ export default function Home():JSX.Element {
           </div>
         
         <Image
-          src="/3D-printed.png"
+          src={PrintedImage}
           alt="3d-printed-image"
           width = {627}
           height = {627}

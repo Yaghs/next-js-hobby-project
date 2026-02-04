@@ -1,4 +1,5 @@
 import "./globals.css";
+import LogoImage from "@/public/Logo.png"
 import { Albert_Sans, Montserrat_Alternates } from "next/font/google"
 
 const albertSans = Albert_Sans({
@@ -24,7 +25,7 @@ export default function RootLayout({ children}: Readonly<{
                   <div className="flex items-center">
                   <Image
                     className="filter grayscale invert brightness-200 contrast-200"
-                    src="/Logo.png"
+                    src={LogoImage}
                     alt="logo-image"
                     width={200}
                     height = {50}

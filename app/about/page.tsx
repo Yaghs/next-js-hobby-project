@@ -1,4 +1,5 @@
 import Image from "next/image"
+import aboutHeroImage from "@/public/about-page-hero.png"
 export default function About(){
     return (
         <main>
@@ -10,7 +11,7 @@ export default function About(){
                 <div className="grid items-center gap-8 mb-12 md:grid-cols-2">
                     <div className="relative h-[300px] w-full">
                         <Image
-                            src="/about-page-hero.png"
+                            src={aboutHeroImage}
                             alt="about page image"
                             width="350"
                             height="300"
